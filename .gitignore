@@ -1,0 +1,7 @@
+.DS_Store
+/.cache/
+/build/
+/HiKokiRemote/build/
+/firmware/*
+!/firmware/.gitkeep
+/.local/
