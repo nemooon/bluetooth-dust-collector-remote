@@ -1,0 +1,15 @@
+# Local board definition using Seeed nRF52 Boards 1.1.13's Bluefruit core.
+raytacDevDongle.name=Raytac MDBT50Q-CX-40 Development Dongle (Bluetooth Remote)
+raytacDevDongle.build.mcu=cortex-m4
+raytacDevDongle.build.f_cpu=64000000
+raytacDevDongle.build.board=Raytac_MDBT50Q_CX40
+raytacDevDongle.build.core=Seeeduino:nRF5
+raytacDevDongle.build.variant=Raytac_MDBT50Q_CX40
+raytacDevDongle.build.extra_flags=-DNRF52840_XXAA -DHIKOKI_BOARD=2
+raytacDevDongle.build.flags.usb=
+raytacDevDongle.build.ldscript=nrf52840_s140_v7.ld
+raytacDevDongle.build.sd_name=s140
+raytacDevDongle.build.sd_version=7.3.0
+raytacDevDongle.build.sd_fwid=0x0123
+raytacDevDongle.upload.maximum_size=811008
+raytacDevDongle.upload.maximum_data_size=237568
